@@ -1,0 +1,29 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+}
+
+.App{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.chatbox__message{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.clickable-item {
+    cursor: pointer; /* Change cursor to pointer */
+    padding: 10px; /* Add some padding */
+    border: 1px solid transparent; /* For hover effect */
+    transition: background-color 0.3s, border 0.3s; /* Smooth transition */
+  }
+  
+  .clickable-item:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+    border: 1px solid #ccc; /* Add border on hover */
+  }
+  
